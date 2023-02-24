@@ -9,6 +9,8 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.2
 echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
 echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
 
+asdf update
+
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf install nodejs latest
 asdf global nodejs latest
