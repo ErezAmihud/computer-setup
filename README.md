@@ -66,3 +66,9 @@ Devbook
 
 Vscode:
 Vscode-dash
+
+
+
+Required docker images:
+[lordgaav/devpi:latest](https://github.com/LordGaav/docker-devpi)
+[verdaccio/verdaccio:latest](https://hub.docker.com/r/verdaccio/verdaccio)
