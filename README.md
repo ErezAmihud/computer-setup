@@ -70,5 +70,5 @@ Vscode-dash
 
 
 Required docker images:
-[lordgaav/devpi:latest](https://github.com/LordGaav/docker-devpi)
+[epicwink/proxpi:latest](https://medium.com/interpreted/local-pypi-cache-server-4a5c2d5ea0bf)
 [verdaccio/verdaccio:latest](https://hub.docker.com/r/verdaccio/verdaccio)
