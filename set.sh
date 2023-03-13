@@ -1,7 +1,17 @@
 ### wsl part
 
+sudo apt-add-repository "deb-src http://archive.ubuntu.com/ubuntu/ `lsb_release -cs` main"
+
 sudo apt-get update
 sudo apt-get install -y  --no-install-recommends curl git aria2 tar python3-dev python3 python3-venv python3-pip tmux coreutils fd-find build-essential manpages-dev vim openssh-client
+
+# python build deps
+sudo apt-get build-dep -y python3
+sudo apt-get install -y  --no-install-recommends pkg-config build-essential gdb lcov pkg-config \
+      libbz2-dev libffi-dev libgdbm-dev libgdbm-compat-dev liblzma-dev \
+      libncurses5-dev libreadline6-dev libsqlite3-dev libssl-dev \
+      lzma lzma-dev tk-dev uuid-dev zlib1g-dev
+
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.2
 . "$HOME/.asdf/asdf.sh"
