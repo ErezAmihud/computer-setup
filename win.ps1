@@ -51,6 +51,7 @@ choco install vlc.portable -y
 choco install zeal.portable -y
 choco install texstudio.portable -y
 choco install windirstat -y
+choco install windscribe -y
 choco install obsidian -y
 choco install act-cli -y
 
