@@ -1,7 +1,7 @@
 ### wsl part
 
-apt-get update
-apt-get install -y --no-install-reccomends curl git aria2 tar python3-dev python3 python3-venv python3-pip tmux coreutils fd-find build-essential manpages-dev vim openssh-client
+sudo apt-get update
+sudo apt-get install -y  --no-install-recommends curl git aria2 tar python3-dev python3 python3-venv python3-pip tmux coreutils fd-find build-essential manpages-dev vim openssh-client
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.2
 . "$HOME/.asdf/asdf.sh"
