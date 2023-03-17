@@ -52,4 +52,6 @@ choco install act-cli -y
 # Z:\setup.ps1
 # TODO setup keyboards from https://github.com/ErezAmihud/dvorak-hebrew-keyboard-mappings
 # TODO download zeal docs
+# Download zeal msdn from https://rotemy.com/dash/
 # connect your vscode to github
+
