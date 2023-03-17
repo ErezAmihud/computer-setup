@@ -30,7 +30,8 @@ choco install docker-desktop -y
 
 #essensials
 choco install 1password -y
-choco install everything.portable -y
+choco install 7zip -y
+choco install everything -y
 choco install sysinternals -y
 choco install aria2 -y
 choco install curl -y
@@ -38,9 +39,9 @@ choco install wget -y
 
 # extra
 choco install microsoft-windows-terminal -y
-choco install vlc.portable -y
-choco install zeal.portable -y
-choco install texstudio.portable -y
+choco install vlc -y
+choco install zeal -y
+choco install texstudio -y
 choco install windirstat -y
 choco install windscribe -y
 choco install obsidian -y
