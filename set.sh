@@ -26,8 +26,8 @@ asdf install nodejs latest
 asdf global nodejs latest
 
 asdf plugin-add python
-asdf install python 3.10.8
-asdf global python 3.10.8
+asdf install python latest:3
+asdf global python latest:3
 
 asdf plugin add black https://github.com/amrox/asdf-pyapp.git
 asdf plugin add conan https://github.com/amrox/asdf-pyapp.git	
