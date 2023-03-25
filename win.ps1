@@ -14,10 +14,9 @@ choco install googlechrome -y
 choco install git -y
 choco install vscode -y
 
-choco install pyenv-win -y
+choco install python --version=3.11.2 -y
+choco install nodejs --version=18.15.0 -y
 choco install llvm -y
-
-choco install nvm.portable -y
 
 choco install visualstudio2022buildtools -y --add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.NodeBuildTools --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.TestTools.BuildTools --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset
 
@@ -49,10 +48,8 @@ choco install obsidian -y
 choco install act-cli -y
 
 
-# set up hardcoded settings and stuff from google drive
-# Z:\setup.ps1
-# TODO setup keyboards from https://github.com/ErezAmihud/dvorak-hebrew-keyboard-mappings
-# TODO download zeal docs
+# setup keyboards from https://github.com/ErezAmihud/dvorak-hebrew-keyboard-mappings
+# download zeal docs
 # Download zeal msdn from https://rotemy.com/dash/
-# connect your vscode to github
 
+.\set_git.ps1

@@ -1,74 +1,34 @@
 # computer-setup
-Script to set up my computer with all of the necessery thing - windows
 
-Install the following things:
-Firefox
-Chrome
-Vscode
-Vs
-Python
-Node
-Wsl
-Docker desktop
-Sysinternals
-Aria2
-Windirstat(? Name)
-Cff explorer
-Obsidian
-Texstudio
-Programming fonts
-My custom keyboard layouts
-Git
-Rust(?)
-Netcat
-Ipython
-7zip
-Spotiflyer 
-Clang tools
-Vlc
-1password
-Windows terminal (also set settings)
-Vscode connect to github
-Everything
-Virtual machine
-Wireshark
-Zeal
-1password cli
-Act
+- Masscode
+- Firefox
+- Chrome
 
-Wsl:
-Asdf
-Curl
-Aria2
-Build-essentials
-Netcat
-Python
-Node
-act
+- git
+- vscode
+- windows terminal
 
+- python
+- nodejs
+- llvm
+- visualstudio2022buildtools
+- wsl
+- 1password
+- 7zip
+- everything
+- sysinternals
+- aria2
+- curl
+- wget
+- grammarly
+- vlc
+- zeal
+- texstudio
+- windirstat
+- windscribe
+- obsidian
+- act
 
-
-
-Images
-Devpi
-Verccio
-
-
-Check:
-Lepton - code snippets
-Runjs
-Zotero - research assistant
-Quicklook
-Eartrumpet
-Devbook
-
-
-
-Vscode:
-Vscode-dash
-
-
-
-Required docker images:
-[epicwink/proxpi:latest](https://medium.com/interpreted/local-pypi-cache-server-4a5c2d5ea0bf)
-[verdaccio/verdaccio:latest](https://hub.docker.com/r/verdaccio/verdaccio)
+Install caching servers
+- `proxpi` for python
+- `verdaccio` for nodejs

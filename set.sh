@@ -56,6 +56,4 @@ asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
 asdf install golang latest
 asdf global golang latest
 
-asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
-asdf install rust latest
-asdf global rust latest
+./set_git.ps1
