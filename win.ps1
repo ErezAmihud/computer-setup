@@ -47,6 +47,10 @@ choco install windscribe -y
 choco install obsidian -y
 choco install act-cli -y
 
+# setup computer settings
+choco install -y explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWCHECKBOXES:no /USEVIEW:details'"
+choco install -y desktopicons-winconfig --params "'/Desktop:YES /UserFiles:YES /ControlPanel:NO /Network:NO /RecycleBin:YES /OneDrive:NO'"
+reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 /ve /d "" /f
 
 # setup keyboards from https://github.com/ErezAmihud/dvorak-hebrew-keyboard-mappings
 # download zeal docs

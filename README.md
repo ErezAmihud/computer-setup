@@ -32,3 +32,5 @@
 Install caching servers
 - `proxpi` for python
 - `verdaccio` for nodejs
+
+- It also setup explorer settings and such
