@@ -39,6 +39,7 @@ choco install wget -y
 
 # extra
 choco install microsoft-windows-terminal -y
+choco install grammarly-for-windows -y
 choco install vlc -y
 choco install zeal -y
 choco install texstudio -y
