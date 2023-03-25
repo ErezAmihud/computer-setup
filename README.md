@@ -29,6 +29,13 @@
 - obsidian
 - act
 
+- audacity audio editing
+- handbreak format converter
+
+Communication:
+- discord
+- telegram
+
 Install caching servers
 - `proxpi` for python
 - `verdaccio` for nodejs
