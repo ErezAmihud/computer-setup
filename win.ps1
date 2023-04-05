@@ -14,7 +14,7 @@ choco install googlechrome -y
 choco install git -y
 choco install vscode -y
 
-choco install python --version=3.11.2 -y
+choco install python --version=3.10.8 -y
 choco install nodejs --version=18.15.0 -y
 choco install llvm -y
 
