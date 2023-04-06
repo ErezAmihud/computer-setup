@@ -3,7 +3,7 @@
 sudo apt-add-repository -s "deb http://archive.ubuntu.com/ubuntu/ `lsb_release -cs` main"
 
 sudo apt-get update
-sudo apt-get install -y  --no-install-recommends curl git aria2 tar python3-dev python3 python3-venv python3-pip tmux coreutils fd-find build-essential manpages-dev vim openssh-client
+sudo apt-get install -y  --no-install-recommends unzip curl git aria2 tar python3-dev python3 python3-venv python3-pip tmux coreutils fd-find build-essential manpages-dev vim openssh-client
 
 # python build deps
 sudo apt-get build-dep -y python3
