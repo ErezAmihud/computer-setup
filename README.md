@@ -32,6 +32,9 @@
 - audacity audio editing
 - handbreak format converter
 
+- neocmakelsp
+- [clangd](https://github.com/clangd/clangd) install both index and server
+
 Communication:
 - discord
 - telegram
