@@ -6,6 +6,12 @@ Install-Script -Name winget-install
 winget-install
 winget install --id=antonreshetov.massCode  -e
 
+winget install sysinternals --accept-package-agreements --accept-source-agreements
+winget install "WinDbg Preview" --accept-package-agreements --accept-source-agreements
+winget install "Audacity.Audacity" --accept-package-agreements --accept-source-agreements
+winget install "Windows Terminal" --accept-package-agreements --accept-source-agreements
+winget install "Telegram Desktop" --accept-package-agreements --accept-source-agreements
+
 # Internet 
 choco install firefox -y
 choco install googlechrome -y
@@ -31,14 +37,12 @@ choco install docker-desktop -y
 choco install 1password -y
 choco install 7zip -y
 choco install everything -y
-choco install sysinternals -y
 choco install aria2 -y
 choco install curl -y
 choco install wget -y
 
 # extra
 choco install -y wireshark
-choco install microsoft-windows-terminal -y
 choco install grammarly-for-windows -y
 choco install vlc -y
 choco install zeal -y
@@ -50,10 +54,6 @@ choco install act-cli -y
 
 # communication
 choco install discord.install -y
-choco install telegram.install -y
-
-
-choco install -y audacity
 choco install -y handbrake
 
 # setup computer settings
