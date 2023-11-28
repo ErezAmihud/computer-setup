@@ -6,6 +6,7 @@ Install-Script -Name winget-install
 winget-install
 winget install --id=antonreshetov.massCode  -e
 
+winget install -e --id DisplayLink.GraphicsDriver
 winget install sysinternals --accept-package-agreements --accept-source-agreements
 winget install "WinDbg Preview" --accept-package-agreements --accept-source-agreements
 winget install "Audacity.Audacity" --accept-package-agreements --accept-source-agreements
