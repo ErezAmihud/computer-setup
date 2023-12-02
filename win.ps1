@@ -12,6 +12,7 @@ winget install "WinDbg Preview" --accept-package-agreements --accept-source-agre
 winget install "Audacity.Audacity" --accept-package-agreements --accept-source-agreements
 winget install "Windows Terminal" --accept-package-agreements --accept-source-agreements
 winget install "Telegram Desktop" --accept-package-agreements --accept-source-agreements
+winget install -e --id WhatsApp.WhatsApp
 
 # Internet 
 choco install firefox -y
