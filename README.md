@@ -44,3 +44,6 @@ Install caching servers
 - `verdaccio` for nodejs
 
 - It also setup explorer settings and such
+
+
+If I am setting a gaming pc then use [atlas os](https://github.com/Atlas-OS/Atlas)
