@@ -4,14 +4,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 Install-Script -Name winget-install
 winget-install
-winget install --id=antonreshetov.massCode  -e
+
 
 winget install -e --id DisplayLink.GraphicsDriver
 winget install sysinternals --accept-package-agreements --accept-source-agreements
 winget install "WinDbg Preview" --accept-package-agreements --accept-source-agreements
 winget install "Audacity.Audacity" --accept-package-agreements --accept-source-agreements
 winget install "Windows Terminal" --accept-package-agreements --accept-source-agreements
-winget install "Telegram Desktop" --accept-package-agreements --accept-source-agreements
+winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements
 
 # Internet 
 choco install googlechrome -y
@@ -30,7 +30,6 @@ wsl --update --web-download
 wsl --set-default-version 2
 wsl --update --web-download
 wsl --install -d Ubuntu
-choco install docker-desktop -y
 
 #essensials
 choco install 1password -y
@@ -38,10 +37,10 @@ choco install 7zip -y
 choco install aria2 -y
 choco install curl -y
 choco install wget -y
+choco install cccp -y
 
 # extra
 choco install -y wireshark
-#choco install grammarly-for-windows -y
 choco install vlc -y
 choco install zeal -y
 #choco install texstudio -y
@@ -67,5 +66,6 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 # choco install obsidian -y
 # choco install everything -y
 # choco install visualstudio2022buildtools -y --add Microsoft.VisualStudio.Workload.ManagedDesktopBuildTools --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.NodeBuildTools --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.TestTools.BuildTools --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset
+# choco install grammarly-for-windows -y
 
 .\set_git.ps1
