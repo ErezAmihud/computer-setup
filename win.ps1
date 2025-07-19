@@ -12,6 +12,7 @@ winget install "WinDbg Preview" --accept-package-agreements --accept-source-agre
 winget install "Audacity.Audacity" --accept-package-agreements --accept-source-agreements
 winget install "Windows Terminal" --accept-package-agreements --accept-source-agreements
 winget install -e --id Docker.DockerDesktop --accept-package-agreements --accept-source-agreements
+winget install --id=Gyan.FFmpeg  -e --accept-package-agreements --accept-source-agreements
 
 # Internet 
 choco install googlechrome -y
